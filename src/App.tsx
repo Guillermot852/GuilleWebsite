@@ -1,9 +1,16 @@
+// src/App.tsx
+import React from 'react';
+import HomeScreen from './screens/HomeScreen';
+import Navbar from './layout/Navbar';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
+    <div>
+      <Navbar/>
+      <HomeScreen/>
     </div>
+    
   );
-}
+};
 
 export default App;

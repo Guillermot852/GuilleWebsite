@@ -1,0 +1,57 @@
+/* HomeScreen.css */
+body {
+    background-color:  #bebfad;
+    margin: 0;
+    padding: 0;
+}
+.titleContainer {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.titleContainer h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.descriptionContainer{
+    /* letter spacing */
+    /* font size */
+    text-align: center;
+    margin-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.descriptionContainer p{
+    font-size:17px;
+    letter-spacing: 0.5px;
+    color: #333;
+    font-weight: normal;
+}
+
+.summary_imgContainer{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: flex-start;
+}
+
+.summary_imgContainer p{
+    flex: 1;
+    margin-right: 20px;
+}
+
+.summary_imgContainer img{
+    max-height: 100%;
+    object-fit: cover;
+}
