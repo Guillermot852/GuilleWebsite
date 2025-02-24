@@ -1,9 +1,23 @@
 /* HomeScreen.css */
 body {
-    background-color:  #bebfad;
+    background-color: #bebfad;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
 }
+.mainContainer {
+    width: 1100px;
+    margin: 0 auto; 
+    padding: 20px; 
+    box-sizing: border-box;
+    background-color: #f2eedd; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
 .titleContainer {
     text-align: center;
     margin-top: 50px;
@@ -18,16 +32,14 @@ body {
     text-transform: uppercase;
     letter-spacing: 2px;
     line-height: 1.2;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    text-align: center;
 }
 
 .descriptionContainer{
-    /* letter spacing */
-    /* font size */
     text-align: center;
     margin-bottom: 40px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 0 100px;
 }
 
 .descriptionContainer p{
@@ -41,17 +53,83 @@ body {
     display: flex;
     flex-direction: row;
     height: 400px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 0 100px;
     justify-content: flex-start;
+    margin-bottom: 20px;
 }
 
 .summary_imgContainer p{
     flex: 1;
     margin-right: 20px;
+    letter-spacing: 1.5px;
+    line-height: 1.2;
 }
 
 .summary_imgContainer img{
     max-height: 100%;
     object-fit: cover;
+}
+.goalContainer{
+    display: flex;
+    flex-direction: row;
+    padding: 0 100px;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+.goalContainer p{
+    flex: 1;
+    margin-right: 20px;
+    letter-spacing: 1.5px;
+    line-height: 1.2;
+    font-size: larger;
+    text-align: center;
+}
+/* Education */
+.educationContainer{
+    padding: 0 100px;
+}
+
+.universityContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin: 20px 0;
+}
+.universityContainer > div{
+    background-color: #142410;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    border-radius: 8px;
+    position: relative;
+    margin: 20px;
+    padding: 5px 5px;
+    color: white;
+}
+
+.onlineCoursesContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin: 20px 0;
+}
+.onlineCoursesContainer > div{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+}
+.onlineCoursesContainer img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.onlineCoursesContainer p{
+    text-align: center;
+    margin: 5px 0; 
 }
