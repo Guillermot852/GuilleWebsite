@@ -99,8 +99,6 @@ body {
     flex-direction: column;
 }
 
-
-
 .universityContainer{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
@@ -112,8 +110,6 @@ body {
     align-items: center;
     display: flex;
     flex-direction: column;
-    /* border-radius: 8px; */
-    /* border radius has no effect? */
     position: relative;
 }
 .universityContainer > div > img{
@@ -141,4 +137,18 @@ body {
 .onlineCoursesContainer p{
     text-align: center;
     margin: 5px 0; 
+}
+
+/* Hard Skills */
+.hardSkillsComponent {
+    padding: 0 100px;
+}
+
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px; 
+    justify-items: center; 
+    align-items:baseline; 
 }

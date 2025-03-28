@@ -3,11 +3,6 @@ import Accordion from '@mui/material/Accordion';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import CorporateManagement from "../images/Corporate-Management.png"
-import Flutter_Dart from "../images/Flutter&Dart.png"
-import jsHTMLcss  from "../images/jsHTMLcss.png"
-import python  from "../images/python.png"
-import Vuejs3  from "../images/Vuejs3.png"
 
 const Education = ()=> {
     return(
@@ -27,7 +22,8 @@ const Education = ()=> {
                     </AccordionDetails>
                 </Accordion>
             {/* University */}
-                <Accordion defaultExpanded sx={{
+                <Accordion 
+                sx={{
                     backgroundColor: "#f2eedd",
                     marginBottom: "10px",
                 }}>
@@ -37,7 +33,9 @@ const Education = ()=> {
                         {/* discribe projcts with links to porjects */}
                     </AccordionSummary>
                     <AccordionDetails  style={{backgroundColor: "#D9D9D9"}}>
-                        <Accordion defaultExpanded sx={{
+                        <Accordion 
+                        defaultExpanded 
+                        sx={{
                             backgroundColor: "#f2eedd", 
                         }}>
                          <AccordionSummary expandIcon={<ExpandMoreIcon />} style={{backgroundColor: "#eeeeee", borderRadius: "8px"}}>
@@ -94,7 +92,8 @@ const Education = ()=> {
                             </AccordionDetails>
                         </Accordion >
                         {/* Projects */}
-                        <Accordion defaultExpanded sx={{
+                        <Accordion 
+                        sx={{
                             backgroundColor: "#f2eedd", 
                         }}>
                           <AccordionSummary expandIcon={<ExpandMoreIcon />} style={{backgroundColor: "#eeeeee", borderRadius: "8px"}}>
