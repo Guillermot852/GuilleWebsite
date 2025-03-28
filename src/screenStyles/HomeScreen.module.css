@@ -25,7 +25,7 @@ body {
 }
 
 .titleContainer h1 {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Inria', sans-serif;
     font-size: 3rem;
     font-weight: bold;
     color: #333;
@@ -43,10 +43,10 @@ body {
 }
 
 .descriptionContainer p{
+    font-family: 'Inria', sans-serif;
     font-size:17px;
     letter-spacing: 0.5px;
     color: #333;
-    font-weight: normal;
 }
 
 .summary_imgContainer{
@@ -55,14 +55,17 @@ body {
     height: 400px;
     padding: 0 100px;
     justify-content: flex-start;
-    margin-bottom: 20px;
+    margin: 20px;
+
 }
 
 .summary_imgContainer p{
-    flex: 1;
-    margin-right: 20px;
-    letter-spacing: 1.5px;
-    line-height: 1.2;
+    font-family: 'Inria', sans-serif;
+    font-size:20px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    word-spacing: 3px;
+    color: #333;
 }
 
 .summary_imgContainer img{
@@ -77,11 +80,12 @@ body {
     margin-bottom: 20px;
 }
 .goalContainer p{
-    flex: 1;
-    margin-right: 20px;
-    letter-spacing: 1.5px;
-    line-height: 1.2;
-    font-size: larger;
+    font-family: 'Inria', sans-serif;
+    font-size:20px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    word-spacing: 3px;
+    color: #333;
     text-align: center;
 }
 /* Education */
@@ -96,22 +100,21 @@ body {
 
 .universityContainer{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     flex-wrap: wrap;
     justify-content:space-between;
     margin: 20px 0;
 }
 .universityContainer > div{
-    background-color: #142410;
     align-items: center;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    border-radius: 8px;
+    /* border-radius: 8px; */
+    /* border radius has no effect? */
     position: relative;
-    margin: 10px;
-    padding: 5px 5px;
-    color: white;
+}
+.universityContainer > div > img{
+    height: 150px;
 }
 
 .onlineCoursesContainer{

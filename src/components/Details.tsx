@@ -30,7 +30,7 @@ const Details = ()=> {
                 skills in programming, frontend development, and collaborative problem-solving. I am driven by a commitment 
                 to continuous learning and a desire to contribute meaningfully to impactful projects.
                 </p>
-                <img src={guillermoTrigoImg} alt="Photo of Guillermo Trigo" />
+                <img src="/images/guillermoTrigoImg.jpeg" alt="Photo of Guillermo Trigo" />
             </div>
             {/* goal */}
             <div className={styles.goalContainer}>

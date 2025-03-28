@@ -1,13 +1,13 @@
 import styles from "../screenStyles/HomeScreen.module.css";
-import python  from "../images/python.png"
-import jsHTMLcss  from "../images/jsHTMLcss.png"
-import Vuejs3  from "../images/Vuejs3.png"
-import Flutter_Dart  from "../images/Flutter&Dart.png"
 import Accordion from '@mui/material/Accordion';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import AccordionSummary from '@mui/material/AccordionSummary';
-import { colors, Typography } from "@mui/material";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import CorporateManagement from "../images/Corporate-Management.png"
+import Flutter_Dart from "../images/Flutter&Dart.png"
+import jsHTMLcss  from "../images/jsHTMLcss.png"
+import python  from "../images/python.png"
+import Vuejs3  from "../images/Vuejs3.png"
 
 const Education = ()=> {
     return(
@@ -18,11 +18,11 @@ const Education = ()=> {
                     backgroundColor: "#f2eedd",
                     marginBottom: "10px",
                 }}>
-                    <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                        <p>Highschool: CIC + IDEA</p>
+                 <AccordionSummary expandIcon={<ExpandMoreIcon />} style={{backgroundColor: "white", borderRadius: "8px"}}>
+                 <p>Highschool: CIC + IDEA</p>
                         {/* sports, math MAP tests, */}
                     </AccordionSummary>
-                    <AccordionDetails>
+                    <AccordionDetails  style={{backgroundColor: "#bbbbbb"}}>
                         <p>sports, math map tests, etc..</p>
                     </AccordionDetails>
                 </Accordion>
@@ -31,37 +31,64 @@ const Education = ()=> {
                     backgroundColor: "#f2eedd",
                     marginBottom: "10px",
                 }}>
-                    <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+                 <AccordionSummary expandIcon={<ExpandMoreIcon />} style={{backgroundColor: "white", borderRadius: "8px"}}>
                         <p>University: UE</p>
                         {/* display grades */}
                         {/* discribe projcts with links to porjects */}
                     </AccordionSummary>
-                    <AccordionDetails>
+                    <AccordionDetails  style={{backgroundColor: "#D9D9D9"}}>
                         <Accordion defaultExpanded sx={{
                             backgroundColor: "#f2eedd", 
                         }}>
-                            <AccordionSummary expandIcon={<ExpandMoreIcon />}
-                                >Grades: 
+                         <AccordionSummary expandIcon={<ExpandMoreIcon />} style={{backgroundColor: "#eeeeee", borderRadius: "8px"}}>
+                            Grades: 
                             </AccordionSummary>
-                            <AccordionDetails>
+                            <AccordionDetails  style={{backgroundColor: "#D9D9D9"}}>
                                 <div className={styles.universityContainer}>
                                             <div>
-                                                <p>Levels of Programming - 81.2%</p>
+                                                <img src="/images/Programming.png" alt="Programming Grade" />
                                             </div>
                                             <div>
-                                                <p>Information Technology - 93.5%</p>
+                                                <img src="/images/Comp-Architecture.png" alt="Computer Architecture Grade" />
                                             </div>
                                             <div>
-                                                <p>Development Strategies - 85%</p>
+                                                <img src="/images/IT-Platforms.png" alt="IT Platforms Grade" />
                                             </div>
                                             <div>
-                                                <p>Management - 87%</p>
+                                                <img src="/images/IT-Security.png" alt="It Security Grade" />
                                             </div>
                                             <div>
-                                                <p>Data Analytics - 83%</p>
+                                                <img src="/images/Software-Engineering.png" alt="Software Engineering 1 & 2 Grade" />
                                             </div>
                                             <div>
-                                                <p>Front End Development - 93%</p>
+                                                <img src="/images/IT-Agile-Dev.png" alt="IT Agile Development Grade" />
+                                            </div>
+                                            <div>
+                                                <img src="/images/QQ-Methods.png" alt="Quantitative and Qualitative Grade" />
+                                            </div>
+                                            <div>
+                                                <img src="/images/Cloud-Comp.png" alt="Cloud Computing & Distributed Systems Grade" />
+                                            </div>
+                                            <div>
+                                                <img src="/images/Math-Stats.png" alt="Mathematics & Statistics Grade" />
+                                            </div>
+                                            <div>
+                                                <img src="/images/AI.png" alt="Artifitial Intelligence Grade" />
+                                            </div>
+                                            <div>
+                                                <img src="/images/Front-End.png" alt="Front End Programming Grade" />
+                                            </div>
+                                            <div>
+                                                <img src="/images/GUI-Web-Design.png" alt="GUI Design and Web Optimization Grade" />
+                                            </div>
+                                            <div>
+                                                <img src="/images/Corporate-Management.png" alt="Corporate Management Grade" />
+                                            </div>
+                                            <div>
+                                                <img src="/images/Management-Basics.png" alt="Management Basics Grade" />
+                                            </div>
+                                            <div>
+                                                <img src="/images/Digital-Media-Comms.png" alt="Digital Media & Communication Grade" />
                                             </div>
                                 </div>
                             </AccordionDetails>
@@ -70,9 +97,9 @@ const Education = ()=> {
                         <Accordion defaultExpanded sx={{
                             backgroundColor: "#f2eedd", 
                         }}>
-                        <AccordionSummary expandIcon={<ExpandMoreIcon />}
-                            >Projects: </AccordionSummary>
-                                <AccordionDetails>
+                          <AccordionSummary expandIcon={<ExpandMoreIcon />} style={{backgroundColor: "#eeeeee", borderRadius: "8px"}}>
+                             Projects: </AccordionSummary>
+                                <AccordionDetails  style={{backgroundColor: "#D9D9D9"}}>
                                     <div className={styles.universityContainer}>
                                                 <div>
                                                     <p>Hybrid Weather App</p>
@@ -92,31 +119,32 @@ const Education = ()=> {
                     <Accordion sx={{
                             backgroundColor: "#f2eedd", 
                             marginBottom: "10px",
+                            borderRadius: "20px",
                         }}>
-                        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+                        <AccordionSummary expandIcon={<ExpandMoreIcon />} style={{backgroundColor: "white", borderRadius: "8px"}}>
                             <p>Online Courses</p>
                             {/* udemy */}
                             {/* harvard course */}
                         </AccordionSummary>
-                        <AccordionDetails>
+                        <AccordionDetails style={{backgroundColor: "#D9D9D9"}}>
                             <div className={styles.onlineCoursesContainer} >
-                            <div style={{boxShadow: "none"}}>
-                                <img src={python} alt="Photo of Guillermo Trigo" />
+                            <div>
+                                <img src="/images/python.png" alt="Python Course" />
                                 <p>The complete Python Developer;</p>
                                 <p>Andri Neagoie</p>
                             </div>
                             <div>
-                                <img src={jsHTMLcss} alt="Photo of Guillermo Trigo" />
+                                <img src="/images/jsHTMLcss.png" alt="Front End Course" />
                                 <p>Javascript, HTML and CSS;</p>
                                 <p>OAK Academy, OAK Academy Team</p>
                             </div>
                             <div>
-                                <img src={Vuejs3} alt="Photo of Guillermo Trigo" />
+                                <img src="/images/Vuejs3.png" alt="Vue js Course" />
                                 <p>Vue js 3;</p>
                                 <p>Ignacio bluuweb</p>
                             </div>
                             <div>
-                                <img src={Flutter_Dart} alt="Photo of Guillermo Trigo" />
+                                <img src="/images/Flutter&Dart.png" alt="Flutter & Dart Course" />
                                 <p>Flutter & Dart;</p>
                                 <p>Academind by Maximilian Schwarzmüller</p>
                             </div>
