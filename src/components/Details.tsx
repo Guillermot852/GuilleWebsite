@@ -15,9 +15,10 @@ const Details = ()=> {
                 <p>
                 Welcome to my personal website! I’m Guillermo Trigo, a Software Engineering student with a passion for 
                 building innovative solutions. Here, you’ll find details about my education, including high school and 
-                university courses, grades, and online certifications. Explore my skills in programming and software 
+                university courses, grades, and online certifications.
+                 {/* Explore my skills in programming and software 
                 development, personal projects like the TU Berlin XDB UI, and other exciting work. You can also view my 
-                professional achievements and contact details to connect or collaborate.
+                professional achievements and contact details to connect or collaborate. */}
                 </p>
             </div>
             {/* personal summary  text + image*/}
