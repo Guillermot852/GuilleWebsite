@@ -144,11 +144,29 @@ body {
     padding: 0 100px;
 }
 
-
 .gridContainer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 16px; 
     justify-items: center; 
     align-items:baseline; 
+}
+
+/* Experience */
+.rowContainer{
+    display: 'flex';
+    flex-direction: 'row';
+}
+
+.logoLine {
+    display: 'flex';
+    flex-direction: 'column';
+    align-items: 'center';
+    gap: '10px'
+}
+
+.verticalLine{
+     width: "2px";
+     background-color: "#ACACAC";
+     height: "100%"
 }
