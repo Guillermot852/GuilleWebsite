@@ -5,7 +5,7 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { useState } from "react";
 
-const Education = ()=> {
+const HardSkills = ()=> {
     const [showMore, setShowMore] = useState(false);
 
     return(
@@ -212,4 +212,4 @@ const Education = ()=> {
 
     )
 }
-export default Education
+export default HardSkills
