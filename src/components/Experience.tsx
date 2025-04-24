@@ -6,7 +6,7 @@ const Experience = ()=> {
                 <div className={styles.rowContainer}>
                     {/* logo + line*/}
                     <div className={styles.logoLine}>
-                        <img width='50px' src="/images/TU-Berlin-Logo.svg.png" alt="TU Logo" />
+                        <img width='50px' src={`${process.env.PUBLIC_URL}/images/TU-Berlin-Logo.svgjpeg`} alt="TU Logo" />
                         {/* vertical line: */}
                         <div className={styles.verticalLine}></div>
                     </div>
@@ -64,7 +64,7 @@ const Experience = ()=> {
                 <div className={styles.rowContainer}>
                     {/* logo + line*/}
                     <div className={styles.logoLine}>
-                        <img width='50px' src="/images/lacoste-logo.png" alt="Lacoste Logo" />
+                        <img width='50px' src={`${process.env.PUBLIC_URL}/images/lacoste-logo.jpeg`} alt="Lacoste Logo" />
                         {/* vertical line: */}
                         <div className={styles.verticalLine}></div>
                     </div>
@@ -106,7 +106,7 @@ const Experience = ()=> {
                 {/* Pret A Manger */}
                 <div className={styles.rowContainer}>
                     <div className={styles.logoLine}>
-                        <img width='50px' src="/images/pret-a-manger-logo.png" alt="Pret A Manger Logo" />
+                        <img width='50px' src={`${process.env.PUBLIC_URL}/images/pret-a-manger-logo.jpeg`} alt="Pret A Manger Logo" />
                         <div className={styles.verticalLine}></div>
                     </div>
                     
