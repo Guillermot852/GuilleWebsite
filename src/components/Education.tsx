@@ -44,49 +44,49 @@ const Education = ()=> {
                             <AccordionDetails  style={{backgroundColor: "#D9D9D9"}}>
                                 <div className={styles.universityContainer}>
                                             <div>
-                                                <img src='${process.env.PUBLIC_URL}/images/Programming.png' alt="Programming Grade" />
+                                                <img src={`${process.env.PUBLIC_URL}/images/Programming.png`} alt="Programming Grade" />
                                             </div>
                                             <div>
-                                                <img src="/images/Comp-Architecture.png" alt="Computer Architecture Grade" />
+                                                <img src={`${process.env.PUBLIC_URL}/images/Comp-Architecture.png`}alt="Computer Architecture Grade" />
                                             </div>
                                             <div>
-                                                <img src="/images/IT-Platforms.png" alt="IT Platforms Grade" />
+                                                <img src={`${process.env.PUBLIC_URL}/images/IT-Platforms.png`} alt="IT Platforms Grade" />
                                             </div>
                                             <div>
-                                                <img src="/images/IT-Security.png" alt="It Security Grade" />
+                                                <img src={`${process.env.PUBLIC_URL}/images/IT-Security.png`} alt="It Security Grade" />
                                             </div>
                                             <div>
-                                                <img src="/images/Software-Engineering.png" alt="Software Engineering 1 & 2 Grade" />
+                                                <img src={`${process.env.PUBLIC_URL}/images/Software-Engineering.png`} alt="Software Engineering 1 & 2 Grade" />
                                             </div>
                                             <div>
-                                                <img src="/images/IT-Agile-Dev.png" alt="IT Agile Development Grade" />
+                                                <img src={`${process.env.PUBLIC_URL}/images/IT-Agile-Dev.png`} alt="IT Agile Development Grade" />
                                             </div>
                                             <div>
-                                                <img src="/images/QQ-Methods.png" alt="Quantitative and Qualitative Grade" />
+                                                <img src={`${process.env.PUBLIC_URL}/images/QQ-Methods.png`} alt="Quantitative and Qualitative Grade" />
                                             </div>
                                             <div>
-                                                <img src="/images/Cloud-Comp.png" alt="Cloud Computing & Distributed Systems Grade" />
+                                                <img src={`${process.env.PUBLIC_URL}/images/Cloud-Comp.png`} alt="Cloud Computing & Distributed Systems Grade" />
                                             </div>
                                             <div>
-                                                <img src="/images/Math-Stats.png" alt="Mathematics & Statistics Grade" />
+                                                <img src={`${process.env.PUBLIC_URL}/images/Math-Stats.png`} alt="Mathematics & Statistics Grade" />
                                             </div>
                                             <div>
-                                                <img src="/images/AI.png" alt="Artifitial Intelligence Grade" />
+                                                <img src={`${process.env.PUBLIC_URL}/images/AI.png`} alt="Artifitial Intelligence Grade" />
                                             </div>
                                             <div>
-                                                <img src="/images/Front-End.png" alt="Front End Programming Grade" />
+                                                <img src={`${process.env.PUBLIC_URL}/images/Front-End.png`} alt="Front End Programming Grade" />
                                             </div>
                                             <div>
-                                                <img src="/images/GUI-Web-Design.png" alt="GUI Design and Web Optimization Grade" />
+                                                <img src={`${process.env.PUBLIC_URL}/images/GUI-Web-Design.png`} alt="GUI Design and Web Optimization Grade" />
                                             </div>
                                             <div>
-                                                <img src="/images/Corporate-Management.png" alt="Corporate Management Grade" />
+                                                <img src={`${process.env.PUBLIC_URL}/images/Corporate-Management.png`} alt="Corporate Management Grade" />
                                             </div>
                                             <div>
-                                                <img src="/images/Management-Basics.png" alt="Management Basics Grade" />
+                                                <img src={`${process.env.PUBLIC_URL}/images/Management-Basics.png`} alt="Management Basics Grade" />
                                             </div>
                                             <div>
-                                                <img src="/images/Digital-Media-Comms.png" alt="Digital Media & Communication Grade" />
+                                                <img src={`${process.env.PUBLIC_URL}/images/Digital-Media-Comms.png`} alt="Digital Media & Communication Grade" />
                                             </div>
                                 </div>
                             </AccordionDetails>
@@ -128,22 +128,22 @@ const Education = ()=> {
                         <AccordionDetails style={{backgroundColor: "#D9D9D9"}}>
                             <div className={styles.onlineCoursesContainer} >
                             <div>
-                                <img src="/images/python.png" alt="Python Course" />
+                                <img src={`${process.env.PUBLIC_URL}/images/python.png`} alt="Python Course" />
                                 <p>The complete Python Developer;</p>
                                 <p>Andri Neagoie</p>
                             </div>
                             <div>
-                                <img src="/images/jsHTMLcss.png" alt="Front End Course" />
+                                <img src={`${process.env.PUBLIC_URL}/images/jsHTMLcss.png`} alt="Front End Course" />
                                 <p>Javascript, HTML and CSS;</p>
                                 <p>OAK Academy, OAK Academy Team</p>
                             </div>
                             <div>
-                                <img src="/images/Vuejs3.png" alt="Vue js Course" />
+                                <img src={`${process.env.PUBLIC_URL}/images/Vuejs3.png`} alt="Vue js Course" />
                                 <p>Vue js 3;</p>
                                 <p>Ignacio bluuweb</p>
                             </div>
                             <div>
-                                <img src="/images/Flutter&Dart.png" alt="Flutter & Dart Course" />
+                                <img src={`${process.env.PUBLIC_URL}/images/Flutter&Dart.png`} alt="Flutter & Dart Course" />
                                 <p>Flutter & Dart;</p>
                                 <p>Academind by Maximilian Schwarzmüller</p>
                             </div>
