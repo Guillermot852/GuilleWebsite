@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/GuilleWebsite/static/css/main.4c10bbe5.css",
-    "main.js": "/GuilleWebsite/static/js/main.decc8e96.js",
+    "main.js": "/GuilleWebsite/static/js/main.a196d616.js",
     "index.html": "/GuilleWebsite/index.html",
     "main.4c10bbe5.css.map": "/GuilleWebsite/static/css/main.4c10bbe5.css.map",
-    "main.decc8e96.js.map": "/GuilleWebsite/static/js/main.decc8e96.js.map"
+    "main.a196d616.js.map": "/GuilleWebsite/static/js/main.a196d616.js.map"
   },
   "entrypoints": [
     "static/css/main.4c10bbe5.css",
-    "static/js/main.decc8e96.js"
+    "static/js/main.a196d616.js"
   ]
 }
