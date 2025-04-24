@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/GuilleWebsite/static/css/main.4c10bbe5.css",
+    "main.js": "/GuilleWebsite/static/js/main.009369ca.js",
+    "index.html": "/GuilleWebsite/index.html",
+    "main.4c10bbe5.css.map": "/GuilleWebsite/static/css/main.4c10bbe5.css.map",
+    "main.009369ca.js.map": "/GuilleWebsite/static/js/main.009369ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c10bbe5.css",
+    "static/js/main.009369ca.js"
+  ]
+}
