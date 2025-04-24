@@ -6,17 +6,17 @@ const Experience = ()=> {
                 <div className={styles.rowContainer}>
                     {/* logo + line*/}
                     <div className={styles.logoLine}>
-                        <img width='50px' src={`${process.env.PUBLIC_URL}/images/TU-Berlin-Logo.svg.png`} alt="TU Logo" />
+                        <img width='50px' src={`${process.env.PUBLIC_URL}/images/BIFOLD-Logo-removebg-preview.png`} alt="TU Logo" />
                         {/* vertical line: */}
                         <div className={styles.verticalLine}></div>
                     </div>
                     
-                    {/* TU */}
+                    {/* BIFOLD */}
                     <div className={styles.informationContainer}>
-                        {/* TU Dima Labs */}
+                        {/* BIFOLD */}
                         <div >
                                 {/* Company Name */}
-                                <h4>Technische Universitet Berlin</h4>
+                                <h4>BIFOLD</h4>
                                 {/* job type internship/fulltime/partime etc...*/}
                                 <p>Internship</p>
                                 {/* city * hybrid/ remote/ x*/}
@@ -25,17 +25,17 @@ const Experience = ()=> {
                         
                         {/* Team Lead */}
                         <div style={{marginBottom: '10px'}}>
-                                <h4>Research Team Lead (UI)</h4>
+                                <h4>Research Assistant Team Lead (UI)</h4>
                                 <p style={{marginBottom: '10px'}}>January 2025 - Present * Ongoing</p>
                                 <div style={{marginLeft: "14px"}}>
                                     <li>
-                                        <p>Leading the development and design of the XDB-UI project</p>
+                                        Leading the development and design of the XDB-UI project
                                     </li>
                                     <li>
-                                        <p>Managing team workflows and prioritizing tasks</p>
+                                        Managing team workflows and prioritizing tasks
                                     </li>
                                     <li>
-                                        <p>Coordinating with cross-functional teams</p>
+                                        Coordinating with cross-functional teams
                                     </li>
                                 </div>
                         </div>
@@ -45,15 +45,15 @@ const Experience = ()=> {
                                 <p style={{marginBottom: '10px'}}>March 2024 - January 2025 * 11 mos</p>
                                 <div style={{marginLeft: "14px"}}>
                                     <li>
-                                        <p>Building the front end of a Cross-Database Query Processing System using React and
-                                        TypeScript and MUI.</p>
+                                        Building the front end of a Cross-Database Query Processing System using React and
+                                        TypeScript and MUI.
                                     </li>
                                     <li>
-                                        <p>Constructed a mock-back-end server to provide API endpoints and perform query calculations, 
-                                            ensuring efficient data handling for front-end integration.</p>
+                                        Constructed a mock-back-end server to provide API endpoints and perform query calculations, 
+                                        ensuring efficient data handling for front-end integration.
                                     </li>
                                     <li>
-                                        <p>Assisted the back end team with code reviews and actively participated in team meetings.</p>
+                                        Assisted the back end team with code reviews and actively participated in team meetings.
                                     </li>
                                 </div>
                         </div>
@@ -79,23 +79,23 @@ const Experience = ()=> {
                         
                         <div style={{marginBottom: '10px'}}>
                                 <h4>Sales Assistant</h4>
-                                <p style={{marginBottom: '10px'}}>March 2024 - January 2025 * 11 mos</p>
+                                <p style={{marginBottom: '10px'}}>March 2024 - Present * Ongoing</p>
                                 <div style={{marginLeft: "14px"}}>
                                     <li>
-                                        <p>Focused on improving sales skills and customer relations</p>
+                                        Focused on improving sales skills and customer relations
                                     </li>
                                     <li>
-                                        <p>Implemented Organizational designs to decrease employee onboarding time and increase other KPIs</p>
+                                        Implemented Organizational designs to decrease employee onboarding time and increase other KPIs
                                     </li>
                                     <li>
-                                        <p>Increased sales by improving customer interaction</p>
+                                        Increased sales by improving customer interaction
                                     </li>
                                     <li>
-                                        <p>Created a visually welcoming store with innovative designs</p>
+                                        Created a visually welcoming store with innovative designs
                                     </li>
                                     <li>
-                                        <p>Educated employees to provide customers with 
-                                        inspiring information about clothes or general Lacoste history</p>
+                                        Educated employees to provide customers with 
+                                        inspiring information about clothes or general Lacoste history
                                     </li>
                                 </div>
                         </div>
@@ -122,10 +122,10 @@ const Experience = ()=> {
                                 <p style={{marginBottom: '10px'}}>Oct 2023 - March 2024 * 6 mos</p>
                                 <div style={{marginLeft: "14px"}}>
                                     <li>
-                                        <p>Managed team schedules, reduced onboarding time by 20%, demonstrating leadership and organizational skills</p>
+                                        Managed team schedules, reduced onboarding time by 20%, demonstrating leadership and organizational skills
                                     </li>
                                     <li>
-                                        <p>Created a cohesive and efficient working environment for the team, resulting in improved performance and morale</p>
+                                        Created a cohesive and efficient working environment for the team, resulting in improved performance and morale
                                     </li>
                                     
                                 </div>

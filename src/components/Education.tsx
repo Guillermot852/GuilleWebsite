@@ -8,19 +8,7 @@ const Education = ()=> {
     return(
         <div className={styles.educationContainer}>
             <p>Education</p>
-            {/* Highschools */}
-                <Accordion sx={{
-                    backgroundColor: "#f2eedd",
-                    marginBottom: "10px",
-                }}>
-                 <AccordionSummary expandIcon={<ExpandMoreIcon />} style={{backgroundColor: "white", borderRadius: "8px"}}>
-                 <p>Highschool: CIC + IDEA</p>
-                        {/* sports, math MAP tests, */}
-                    </AccordionSummary>
-                    <AccordionDetails  style={{backgroundColor: "#bbbbbb"}}>
-                        <p>sports, math map tests, etc..</p>
-                    </AccordionDetails>
-                </Accordion>
+
             {/* University */}
                 <Accordion 
                 sx={{
