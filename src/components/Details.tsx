@@ -1,4 +1,3 @@
-import guillermoTrigoImg from "../images/guillermoTrigoImg.jpeg"
 import styles from "../screenStyles/HomeScreen.module.css";
 
 const Details = ()=> {
@@ -31,8 +30,8 @@ const Details = ()=> {
                 skills in programming, frontend development, and collaborative problem-solving. I am driven by a commitment 
                 to continuous learning and a desire to contribute meaningfully to impactful projects.
                 </p>
-                <img src="/images/guillermoTrigoImg.jpeg" alt="Photo of Guillermo Trigo" />
-            </div>
+                <img src={`${process.env.PUBLIC_URL}/images/guillermoTrigoImg.jpeg`} alt="Photo of Guillermo Trigo" />
+                </div>
             {/* goal */}
             <div className={styles.goalContainer}>
                 <p>

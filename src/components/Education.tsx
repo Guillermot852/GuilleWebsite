@@ -44,7 +44,7 @@ const Education = ()=> {
                             <AccordionDetails  style={{backgroundColor: "#D9D9D9"}}>
                                 <div className={styles.universityContainer}>
                                             <div>
-                                                <img src="/images/Programming.png" alt="Programming Grade" />
+                                                <img src='${process.env.PUBLIC_URL}/images/Programming.png' alt="Programming Grade" />
                                             </div>
                                             <div>
                                                 <img src="/images/Comp-Architecture.png" alt="Computer Architecture Grade" />
