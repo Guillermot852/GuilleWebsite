@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Guillermo Trigo's Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This Project is a Personal Website made to showcase some of my skills in Frontend Development
+Website link is: 
+https://guillermot852.github.io/GuilleWebsite/
 
 ## Available Scripts
 
